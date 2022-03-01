@@ -33,6 +33,7 @@
 .sobre__subtitulo {
     color: var(--light);
     font-size: 1.2em;
+    margin: 1em 0;
 }
 
 .sobre__paragrafo {
@@ -44,9 +45,16 @@
     text-align: justify;
 }
 
+.sobre__links {
+    margin: 2em 0;
+    display: flex;
+}
+
 .sobre__links a {
+    font-size: 1.5em;
     color: var(--blue);
     margin-right: 2em;
+    
 }
 
 .sobre__btn {
@@ -72,7 +80,10 @@
 
     .sobre__conteudo {
         width: 80%;
-        height: 360px;
         margin-top: 1.5em;
+    }
+
+    .sobre__links a {
+        font-size: 2em;
     }
 }
