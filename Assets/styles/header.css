@@ -18,6 +18,11 @@
     width: 50%;
 }
 
+.header__btn {
+    display: none;
+    align-self: flex-end;
+}
+
 .header__menu {
     display: flex;
     justify-content: space-between;
@@ -54,4 +59,14 @@
 .header__item a:hover:after {
     width: 100% ;
     
+}
+
+@media screen and (max-width: 1000px) {
+    .header__btn {
+        display: inline;
+    }
+
+    .header__menu {
+        display: none;
+    }
 }
