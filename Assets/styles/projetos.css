@@ -61,6 +61,10 @@
 
 @media screen and (max-width: 768px) 
 {
+    .projetos__container {
+        padding: 3em 0;
+    }
+
     .projetos__cards {
         grid-template-columns: 1fr;
     }

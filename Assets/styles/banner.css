@@ -72,4 +72,8 @@
     .banner__titulo em {
         font-size: 1.8em;   
     }
+    
+    .button-linkedin, .button-github {
+        background-color: var(--dark-200);
+    }
 }
