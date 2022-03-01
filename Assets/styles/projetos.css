@@ -1,0 +1,22 @@
+.projetos {
+    background: var(--dark-200);
+}
+
+.projetos__container {
+    padding: 5em 0;
+}
+
+.projetos__titulo {
+    margin-bottom: 2em;
+    color: var(--light);
+    font-weight: 600;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.projetos__subtitulo {
+    color: var(--light);
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}

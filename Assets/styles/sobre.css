@@ -1,0 +1,65 @@
+.sobre {
+    background-color: var(--dark-200);
+}
+
+.sobre__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 0;
+}
+
+.sobre__imagem {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+    border-left: 5px solid var(--blue);
+    border-radius: 3px;
+}
+
+.sobre__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre__titulo {
+    color: var(--light);
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sobre__subtitulo {
+    color: var(--light);
+    font-size: 1.2em;
+}
+
+.sobre__paragrafo {
+    color: var(--gray-light);
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+    text-align: justify;
+}
+
+.sobre__links a {
+    color: var(--blue);
+    margin-right: 2em;
+}
+
+.sobre__btn {
+    display: flex;
+}
+
+.button--curriculo {
+    border-image: var(--gradiente-pink);
+    
+}
+
+.button--email {
+    margin-left: 1em;
+    border-image: var(--gradient-purple);
+}
+
