@@ -77,3 +77,11 @@
         background-color: var(--dark-200);
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .banner__titulo {
+        font-size: 1em;
+        line-height: 22px;
+    }
+}

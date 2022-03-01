@@ -91,3 +91,15 @@
         margin-top: 2em;
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    .sobre__conteudo {
+        width: 90%;
+    
+    }
+
+    .sobre__links a {
+        font-size: 1.4em;
+    }
+}
