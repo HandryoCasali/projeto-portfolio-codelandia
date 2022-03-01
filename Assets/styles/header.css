@@ -1,5 +1,5 @@
 .header__container {
-    height: 120px;
+    /* height: 120px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,17 +10,19 @@
 
 .header__logo {
     font-size: 1.6em;
-    color: var(--blue);
+    color: var(--blue-dark);
+    font-style: oblique ;
     text-decoration: none;
+    vertical-align: center;
+}
+
+.header__logo:hover {
+    color: var(--blue);
 }
 
 .header__navegacao {
     width: 50%;
-}
-
-.header__btn {
-    display: none;
-    align-self: flex-end;
+    min-width: 500px;
 }
 
 .header__menu {
@@ -61,12 +63,28 @@
     
 }
 
-@media screen and (max-width: 1000px) {
-    .header__btn {
-        display: inline;
+@media screen and (max-width: 900px) {
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header__item {
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__container {
+        /* height: 150px; */
+    }
+
+    .header__navegacao {
+        width: 100%;
+        min-width: 0;
     }
 
     .header__menu {
-        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }

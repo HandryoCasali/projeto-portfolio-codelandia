@@ -3,6 +3,7 @@
 :root {
     /* Cores e Gradientes Principais */
     --blue: #00D2DF;
+    --blue-dark: #04abb4;
     --gradiente-pink: linear-gradient(to right, #D24074, #6518B4) 1;
     --gradient-purple: linear-gradient(to right, #9358F7, #10D7E2) 1;
 

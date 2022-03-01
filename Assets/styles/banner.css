@@ -1,5 +1,5 @@
 .banner {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 150px);
     background-image: url(../img/Looper\ BG.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -61,4 +61,15 @@
 .button-github {
     margin-left: 1em;
     border-image: var(--gradiente-pink);
+}
+
+@media screen and (max-width: 900px) {
+
+    .banner__titulo {
+        font-size: 1.4em;
+    }
+
+    .banner__titulo em {
+        font-size: 1.8em;   
+    }
 }

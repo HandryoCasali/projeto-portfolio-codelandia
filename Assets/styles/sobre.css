@@ -63,3 +63,16 @@
     border-image: var(--gradient-purple);
 }
 
+@media screen and (max-width: 830px) {
+
+    .sobre__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre__conteudo {
+        width: 80%;
+        height: 360px;
+        margin-top: 1.5em;
+    }
+}

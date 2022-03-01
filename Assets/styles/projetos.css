@@ -16,18 +16,20 @@
 
 .projetos__cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    gap: 0 10% ;
 }
 
 .projetos__card {
     margin-top: 3em;
-    width: 400px;
+    width: 100%;
 }
 
 .card__imagem {
-    width: 400px;
+    width: 100%;
     height: 150px;
     object-fit: cover;
+    object-position: top;
 }
 
 .card__titulo {
@@ -48,6 +50,7 @@
 
 .card__tecnologias {
     color: var(--blue);
+    font-size: 0.9em;
     margin-top: 1em;
     margin-bottom: 2em;
 }
@@ -56,7 +59,7 @@
     border-image: var(--gradient-purple);
 }
 
-@media screen and (max-width: 1100px) 
+@media screen and (max-width: 768px) 
 {
     .projetos__cards {
         grid-template-columns: 1fr;

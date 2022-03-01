@@ -13,114 +13,159 @@
     <link rel="stylesheet" href="/Assets/styles/sobre.css">
     <link rel="stylesheet" href="/Assets/styles/experiencia.css">
     <link rel="stylesheet" href="/Assets/styles/projetos.css">
+    <link rel="stylesheet" href="/Assets/styles/footer.css">
 </head>
 
 <body>
     <header class="header">
         <div class="header__container container">
-            <a href="#" class="header__logo">Portfólio</a>
+            <a href="#" class="header__logo">HandryoCasali</a>
             <nav class="header__navegacao">
                 <ul class="header__menu">
                     <li class="header__item"><a href="#">Home</a></li>
                     <li class="header__item"><a href="#sobre">Sobre mim</a></li>
-                    <li class="header__item"><a href="#">Experiência</a></li>
-                    <li class="header__item"><a href="#">Projetos</a></li>
+                    <li class="header__item"><a href="#experiencia">Experiência</a></li>
+                    <li class="header__item"><a href="#projetos">Projetos</a></li>
                 </ul>
-                <button class="header__btn"><i class="fa-solid fa-bars"></i></button>
             </nav>
         </div>
     </header>
+
     <main>
         <section class="banner">
             <div class="banner__container container">
-                <h1 class="banner__titulo">Olá, eu sou <br><em>Handryo Casali</em><br> Estudante de programação.</h1>
+                <h1 class="banner__titulo">Olá, eu sou <br><em>Handryo Casali</em><br> Estudante na área de
+                    desenvolvimento.</h1>
                 <div class="banner__buttons">
-                    <a href="#" class="button-linkedin btn-padrao"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
-                    <a href="#" class="button-github btn-padrao"><i class="fa-brands fa-github"></i>GitHub</a>
+                    <a href="https://www.linkedin.com/in/handryo-casali/" target="_blank" title="Ver perfil no LinkedIn"
+                        class="button-linkedin btn-padrao" alt="Ver perfil no LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                    <a href="https://github.com/HandryoCasali" target="_blank" class="button-github btn-padrao"
+                        title="Ver perfil no GitHub" alt="Ver perfil no GitHub"><i
+                            class="fa-brands fa-github"></i>GitHub</a>
                 </div>
             </div>
         </section>
 
         <section id="sobre" class="sobre">
             <div class="sobre__container container">
-                <img class="sobre__imagem" src="Assets/img/fotinha-de-mim.jpeg" alt="">
+                <!-- sla oq colocar de alt -->
+                <img class="sobre__imagem" src="Assets/img/fotinha-de-mim.jpeg"
+                    title="Foto de um menino em busca de uma vaguinha pra estágio/trainee/dev jr. xD"
+                    alt="Imagem do autor do portifólio">
                 <div class="sobre__conteudo">
                     <h2 class="sobre__titulo">Sobre Mim</h2>
-                    <h3 class="sobre__subtitulo">Cidade, Brasil</h3>
-                    <p class="sobre__paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-                        perspiciatis maiores tempore adipisci, harum cumque accusantium unde ipsa? A eos doloribus culpa
-                        rerum eius consectetur veritatis ex alias unde nam.</p>
+                    <h3 class="sobre__subtitulo">Querência do Norte - PR, Brasil</h3>
+                    <p class="sobre__paragrafo">Sou estudante na área de desenvolvimento. Atualmente sou acadêmico no
+                        curso de Sistemas para Internet - UNINGÁ. Também estou em um curso Qualificação Programador
+                        Full-Stack - SENAI-PR, além de estudar alguns conteúdos a parte na ALURA e na DIO. Já estudei um
+                        pouco de Front-End ( HTML, CSS, JS, Bootstrap, Jquery, Angular ), agora estou estudando sobre
+                        Back-End (C# .NET, SQL Server, Rest APIs).</p>
                     <ul class="sobre__links">
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/handryo_casali/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/handryo-casali/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/HandryoCasali" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=44998694442&text=Oi." target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
                     </ul>
                     <div class="sobre__btn">
-                        <a class="button--curriculo btn-padrao" href=""><i class="fa-solid fa-cloud-arrow-down"></i> Curriculo</a>
-                        <a class="button--email btn-padrao" href=""><i class="fa-solid fa-envelope"></i> E-mail</a>
+                        <a class="button--curriculo btn-padrao" href="/Assets/downloads/Curriculo-Handryo.pdf"
+                            download=""><i class="fa-solid fa-cloud-arrow-down"></i> Curriculo</a>
+                        <a class="button--email btn-padrao" href="mailto:handryo@hotmail.com"><i
+                                class="fa-solid fa-envelope"></i> E-mail</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="experiencia">
+        <section id="experiencia" class="experiencia">
             <div class="experiencia__container container">
                 <h2 class="experiencia__titulo">Experiência</h2>
                 <div class="experiencia__conteudo__container">
                     <ul class="experiencia__lista">
-                        <li class="experiencia__item active">Experiencia 1</li>
-                        <li class="experiencia__item">Experiencia 2</li>
-                        <li class="experiencia__item">Experiencia 3</li>
-                        <li class="experiencia__item">Experiencia 4</li>
+                        <li class="experiencia__item experiencia__item-ativo">Conservatório Art & Talento</li>
+                        <li class="experiencia__item">Padaria Cerro Azul</li>
+                        <li class="experiencia__item">Paróquia São Paulo Apóstolo</li>
                     </ul>
-                    <div class="experiencia__conteudo">
-                        <div class="d-flex">
-                            <h3 class="experiencia__conteudo__titulo">Experiencia 1</h3>
-                            <span class="experiencia__data">Data</span>
-                        </div>
-                        <h4 class="experiencia__conteudo__subtitulo">Em tal lugar</h4>
-                        <p class="experiencia__conteudo__paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, magni, voluptatem inventore aliquam obcaecati molestiae sint repellendus quaerat odit ea sed velit! Nostrum repellendus asperiores exercitationem omnis incidunt, natus eius.</p>
+                    <div class="conteudo">
+                        <article class="experiencia__conteudo experiencia__conteudo-ativo">
+                            <div class="d-flex">
+                                <h3 class="experiencia__conteudo__titulo">Professor de música - Violão</h3>
+                                <span class="experiencia__data">Jan. 2019 a Dez. 2021</span>
+                            </div>
+                            <h4 class="experiencia__conteudo__subtitulo">Conservatório de música Art & Talento</h4>
+                            <p class="experiencia__conteudo__paragrafo">Responsável por ministrar aulas de violão,
+                                atendimento ao publico para explicação de contrato e funcionamento das aulas, e
+                                supervisionamento dos estágiarios.</p>
+                        </article>
+                        <article class="experiencia__conteudo">
+                            <div class="d-flex">
+                                <h3 class="experiencia__conteudo__titulo">Ajudante Geral</h3>
+                                <span class="experiencia__data">Jul. 2017 a Fev. 2018</span>
+                            </div>
+                            <h4 class="experiencia__conteudo__subtitulo">Padaria Cerro Azul</h4>
+                            <p class="experiencia__conteudo__paragrafo">Responsável pela organização do estoque, recebimentos e organização de mercadorias, organização do setor de vendas, limpeza e organização das câmaras frias.</p>
+                        </article>
+                        <article class="experiencia__conteudo">
+                            <div class="d-flex">
+                                <h3 class="experiencia__conteudo__titulo">Auxiliar Administrativo</h3>
+                                <span class="experiencia__data">Jun. 2016 a Mai. 2017</span>
+                            </div>
+                            <h4 class="experiencia__conteudo__subtitulo">Paróquia São Paulo Apóstolo</h4>
+                            <p class="experiencia__conteudo__paragrafo">Responsável pelo Controle do fluxo do caixa, atendimento ao público, envio de malotes para o escritório de contabilidade, lançamentos contábeis, acompanhamento do extrato bancário, pagamento e recebimento de contas.</p>
+                        </article>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="projetos">
+        <section id="projetos" class="projetos">
             <div class="projetos__container container">
                 <h2 class="projetos__titulo">Projetos</h2>
                 <div class="projetos__cards">
                     <article class="projetos__card">
-                        <img class="card__imagem" src="https://place-hold.it/400x150" alt="">
-                        <h3 class="card__titulo">Nome do projeto</h3>
-                        <p class="card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam, animi ipsum veniam aliquid praesentium aut.</p>
-                        <p class="card__tecnologias">Tecnologias usadas no projeto</p>
-                        <a href="" class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
+                        <img class="card__imagem" src="Assets/img/gamemania.png" alt="">
+                        <h3 class="card__titulo">Game Mania</h3>
+                        <p class="card__descricao">Site de exemplo de um e-commerce de produtos de tecnologia. Projeto
+                            construído durante as aulas de front-end no curso do SENAI.</p>
+                        <p class="card__tecnologias">Angular, TypeScript, Styled Components.</p>
+                        <a href="https://handryocasali.github.io/senai-gamemania-angular/" target="_blank"
+                            class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
                     </article>
                     <article class="projetos__card">
-                        <img class="card__imagem" src="https://place-hold.it/400x150" alt="">
-                        <h3 class="card__titulo">Nome do projeto</h3>
-                        <p class="card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam, animi ipsum veniam aliquid praesentium aut.</p>
-                        <p class="card__tecnologias">Tecnologias usadas no projeto</p>
-                        <a href="" class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
+                        <img class="card__imagem" src="Assets/img/cadastro-pessoas.png" alt="">
+                        <h3 class="card__titulo">Cadastro de Pessoas Físicas e Jurídicas</h3>
+                        <p class="card__descricao">Exemplo de um projeto de console para cadastro de pessoas físicas e
+                            pessoas jurídicas. Projeto construído durante as aulas de back-end no curso do SENAI.</p>
+                        <p class="card__tecnologias">C# .Net cli.</p>
+                        <a href="https://github.com/HandryoCasali/senai-uc12-sa2" target="_blank"
+                            class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
                     </article>
                     <article class="projetos__card">
-                        <img class="card__imagem" src="https://place-hold.it/400x150" alt="">
-                        <h3 class="card__titulo">Nome do projeto</h3>
-                        <p class="card__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam, animi ipsum veniam aliquid praesentium aut.</p>
-                        <p class="card__tecnologias">Tecnologias usadas no projeto</p>
-                        <a href="" class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
+                        <img class="card__imagem" src="Assets/img/portfolio.png" alt="">
+                        <h3 class="card__titulo">Projeto Portfólio</h3>
+                        <p class="card__descricao">Exemplo de portfólio. Layout da comunidade do discord da Codelândia.
+                        </p>
+                        <p class="card__tecnologias">Html, Css, JS.</p>
+                        <a href="https://github.com/HandryoCasali/senai-uc12-sa2" target="_blank"
+                            class="btn-padrao btn--visualizar"><i class="fa-solid fa-link"></i>Visualizar</a>
                     </article>
+
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <span>@ 2022 - Handryo Casali</span>
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/e9f8d84179.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
