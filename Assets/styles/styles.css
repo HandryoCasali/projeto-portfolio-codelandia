@@ -9,10 +9,11 @@
 
     /* Cores Neutras */
     --dark: #121212;
+    --dark-transparente: #12121275;
     --dark-200: #151515;
     --gray-light: #C4C4C4;
     --light: #FFFFFF;
-    
+
     /* Tipografia Fonte  https://fonts.google.com/specimen/Inter */
     --inter: 'Inter', sans-serif; 
 }
@@ -29,7 +30,48 @@ body {
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
+.btn-padrao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 50px;
+
+    color: var(--light);
+
+    text-decoration: none;
+    text-align: center;
+
+    background-color: var(--dark-200);
+    
+    border: 2px solid transparent;
+    border-radius: 10px; /* Não funciona por causa do border-image :\ */
+
+    transition: transform 0.3s;
+}
+
+.btn-padrao:hover {
+    background-color: var(--dark);
+    transform: scale(1.05);
+}
+
+.btn-padrao:active {
+    transform: scale(0.9);
+}
+
+.btn-padrao i {
+    padding-right: 1.3em;
+}
+
+.btn-padrao-pink {
+    border-image: var(--gradiente-pink);
+}
+
+.btn-padrao-purple {
+    border-image: var(--gradient-purple);
+}

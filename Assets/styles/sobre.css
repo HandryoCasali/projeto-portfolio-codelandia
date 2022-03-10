@@ -54,21 +54,19 @@
     font-size: 1.5em;
     color: var(--blue);
     margin-right: 2em;
-    
+    transition: transform 0.3s;
+}
+
+.sobre__links a:hover { 
+    transform: scale(1.2);
 }
 
 .sobre__btn {
     display: flex;
 }
-
-.button--curriculo {
-    border-image: var(--gradiente-pink);
-    
-}
-
-.button--email {
+  
+.sobre__btn .btn-padrao:nth-child(2) {
     margin-left: 1em;
-    border-image: var(--gradient-purple);
 }
 
 @media screen and (max-width: 830px) {
@@ -84,7 +82,7 @@
     }
 
     .sobre__links a {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .sobre__subtitulo {
@@ -96,7 +94,6 @@
 
     .sobre__conteudo {
         width: 90%;
-    
     }
 
     .sobre__links a {

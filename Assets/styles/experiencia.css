@@ -30,6 +30,11 @@
     border-left: 1px solid var(--gray-light);
     cursor: pointer;
 }
+
+.experiencia__item:hover {
+    background-color: var(--dark-200);
+}
+
 .experiencia__item-ativo {
     color: var(--light);
     border-left: 2px solid var(--blue);

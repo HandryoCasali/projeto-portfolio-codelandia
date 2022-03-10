@@ -1,6 +1,6 @@
 .banner {
     height: calc(100vh - 150px);
-    background-image: url(../img/Looper\ BG.png);
+    background: url("../img/Looper BG.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -32,52 +32,48 @@
     display: flex;
 }
 
-.btn-padrao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 150px;
-    height: 50px;
-
-    color: var(--light);
-
-    text-decoration: none;
-    text-align: center;
-
-    
-    border: 2px solid transparent;
-    border-radius: 10px; /* Não funciona por causa do border-image :\ */
-}
-
-.btn-padrao i {
-    padding-right: 1.3em;
-}
-
-.button-linkedin {
-    border-image: var(--gradient-purple);
-}
-
-.button-github {
+.banner__buttons .btn-padrao:nth-child(2) {
     margin-left: 1em;
-    border-image: var(--gradiente-pink);
 }
 
 @media screen and (max-width: 900px) {
+   .banner {
+       position: relative;
+    }
+
+    .banner::before {
+        content: "";
+        background-color: var(--dark-transparente);
+        width: 100vw;
+        height: calc(100vh - 150px);
+        position: absolute;
+        
+    }
+
+    .banner__container {
+        z-index: 1;
+    }
 
     .banner__titulo {
         font-size: 1.4em;
+        z-index: 1;
     }
 
     .banner__titulo em {
         font-size: 1.8em;   
     }
     
-    .button-linkedin, .button-github {
-        background-color: var(--dark-200);
+    .banner__buttons {
+        
+        z-index: 1;
     }
 }
 
+@media screen and (max-width: 660px) {
+    .banner__titulo {
+        line-height: 1.2;
+    }
+}
 
 @media screen and (max-width: 450px) {
     .banner__titulo {
