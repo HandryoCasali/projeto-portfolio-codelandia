@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="Assets/styles/footer.css">
 </head>
 
-<body>
+<body  onload="renderizarProjetos()">
     <header class="header">
         <div class="header__container container">
             <a href="#" class="header__logo">HandryoCasali</a>
@@ -40,9 +40,9 @@
                     <a href="https://www.linkedin.com/in/handryo-casali/" target="_blank" title="Ver perfil no LinkedIn"
                         class="btn-padrao btn-padrao-purple" alt="Ver perfil no LinkedIn"><i
                             class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
-                    <a href="https://github.com/HandryoCasali" target="_blank"
-                        class="btn-padrao btn-padrao-pink" title="Ver perfil no GitHub"
-                        alt="Ver perfil no GitHub"><i class="fa-brands fa-github"></i>GitHub</a>
+                    <a href="https://github.com/HandryoCasali" target="_blank" class="btn-padrao btn-padrao-pink"
+                        title="Ver perfil no GitHub" alt="Ver perfil no GitHub"><i
+                            class="fa-brands fa-github"></i>GitHub</a>
                 </div>
             </div>
         </section>
@@ -130,36 +130,7 @@
         <section id="projetos" class="projetos">
             <div class="projetos__container container">
                 <h2 class="projetos__titulo">Projetos</h2>
-                <div class="projetos__cards">
-                    <article class="projetos__card">
-                        <img class="card__imagem" src="Assets/img/gamemania.png" alt="">
-                        <h3 class="card__titulo">Game Mania</h3>
-                        <p class="card__descricao">Site de exemplo de um e-commerce de produtos de tecnologia. Projeto
-                            construído durante as aulas de front-end no curso do SENAI.</p>
-                        <p class="card__tecnologias">Angular, TypeScript, Styled Components.</p>
-                        <a href="https://handryocasali.github.io/senai-gamemania-angular/" target="_blank"
-                            class="btn-padrao btn-padrao-purple"><i class="fa-solid fa-link"></i>Visualizar</a>
-                    </article>
-                    <article class="projetos__card">
-                        <img class="card__imagem" src="Assets/img/cadastro-pessoas.png" alt="">
-                        <h3 class="card__titulo">Cadastro de Pessoas Físicas e Jurídicas</h3>
-                        <p class="card__descricao">Exemplo de um projeto de console para cadastro de pessoas físicas e
-                            pessoas jurídicas. Projeto construído durante as aulas de back-end no curso do SENAI.</p>
-                        <p class="card__tecnologias">C# .Net cli.</p>
-                        <a href="https://github.com/HandryoCasali/senai-uc12-sa2" target="_blank"
-                            class="btn-padrao btn-padrao-purple"><i class="fa-solid fa-link"></i>Visualizar</a>
-                    </article>
-                    <article class="projetos__card">
-                        <img class="card__imagem" src="Assets/img/portfolio.png" alt="">
-                        <h3 class="card__titulo">Projeto Portfólio</h3>
-                        <p class="card__descricao">Exemplo de portfólio. Layout da comunidade do discord da Codelândia.
-                        </p>
-                        <p class="card__tecnologias">Html, Css, JS.</p>
-                        <a href="https://github.com/HandryoCasali/senai-uc12-sa2" target="_blank"
-                            class="btn-padrao btn-padrao-purple"><i class="fa-solid fa-link"></i>Visualizar</a>
-                    </article>
-
-                </div>
+                <div class="projetos__cards"></div>
             </div>
         </section>
     </main>
@@ -170,7 +141,8 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/e9f8d84179.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="./Assets/js/index.js"></script>
+    <script src="./Assets/js/renderizarProjetos.js"></script>
 </body>
 
 </html>

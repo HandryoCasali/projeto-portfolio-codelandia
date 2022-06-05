@@ -10,14 +10,14 @@
 
 .header__logo {
     font-size: 1.6em;
-    color: var(--blue-dark);
+    color: var(--blue);
     font-style: oblique ;
     text-decoration: none;
     vertical-align: center;
 }
 
 .header__logo:hover {
-    color: var(--blue);
+    color: var(--blue-dark);
 }
 
 .header__navegacao {
