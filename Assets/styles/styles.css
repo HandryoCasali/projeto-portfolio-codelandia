@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-    /* Cores e Gradientes Principais */
+    /* Cores de Gradientes Principais */
     --blue: #00D2DF;
     --blue-dark: #04abb4;
     --gradiente-pink: linear-gradient(to right, #D24074, #6518B4) 1;
     --gradient-purple: linear-gradient(to right, #9358F7, #10D7E2) 1;
 
-    /* Cores Neutras */
-    --dark: #121212;
-    --dark-transparente: #12121275;
-    --dark-200: #151515;
-    --gray-light: #C4C4C4;
-    --light: #FFFFFF;
+    /* Cores Principais */
+    --cor-bg-primaria: #121212;
+    --cor-bg-primaria-transparente: #12121275;
+    --cor-bg-secundaria: #151515;
+    --cor-texto-secundaria: #C4C4C4;
+    --cor-texto-primaria: #FFFFFF;
 
     /* Tipografia Fonte  https://fonts.google.com/specimen/Inter */
     --inter: 'Inter', sans-serif; 
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --cor-bg-primaria: #FEFEFE;
+        --cor-bg-primaria-transparente: #12121275;
+        --cor-bg-secundaria: #F1F1F1;
+    
+        --cor-texto-primaria: #121212;
+        --cor-texto-secundaria: #151515;
+    }
+    
 }
 
 * {
@@ -24,8 +36,8 @@
 
 body {
     font-family: var(--inter);
-    background-color: var(--dark);
-    color: var(--gray-light);
+    background-color: var(--cor-bg-primaria);
+    color: var(--cor-texto-secundaria);
 }
 
 .container {
@@ -42,12 +54,12 @@ body {
     width: 150px;
     height: 50px;
 
-    color: var(--light);
+    color: var(--cor-texto-primaria);
 
     text-decoration: none;
     text-align: center;
 
-    background-color: var(--dark-200);
+    background-color: var(--cor-bg-secundaria);
     
     border: 2px solid transparent;
     
@@ -64,7 +76,7 @@ body {
 
 
 .btn-padrao:hover {
-    background-color: var(--dark);
+    background-color: var(--cor-bg-primaria);
     transform: scale(1.05);
 }
 

@@ -14,7 +14,7 @@
 }
 
 .banner__titulo {
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     text-transform: uppercase;
     font-size: 1.6em;
     font-weight: 600;
@@ -43,7 +43,7 @@
 
     .banner::before {
         content: "";
-        background-color: var(--dark-transparente);
+        background-color: var(--cor-bg-primaria-transparente);
         width: 100vw;
         height: calc(100vh - 150px);
         position: absolute;

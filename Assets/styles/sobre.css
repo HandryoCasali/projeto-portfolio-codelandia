@@ -1,5 +1,5 @@
 .sobre {
-    background-color: var(--dark-200);
+    background-color: var(--cor-bg-secundaria);
 }
 
 .sobre__container {
@@ -24,20 +24,20 @@
 }
 
 .sobre__titulo {
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     font-size: 1.4em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .sobre__subtitulo {
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     font-size: 1.2em;
     margin: 1em 0;
 }
 
 .sobre__paragrafo {
-    color: var(--gray-light);
+    color: var(--cor-texto-secundaria);
     font-size: 0.8em;
     letter-spacing: 1px;
     line-height: 25px;

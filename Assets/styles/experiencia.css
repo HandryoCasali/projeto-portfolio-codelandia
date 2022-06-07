@@ -13,7 +13,7 @@
 
 .experiencia__titulo {
     margin-bottom: 2em;
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     font-size: 1.4em;
     font-weight: 600;
     text-transform: uppercase;
@@ -27,18 +27,18 @@
 .experiencia__item {
     line-height: 20px;
     padding: 1em;
-    border-left: 1px solid var(--gray-light);
+    border-left: 1px solid var(--cor-texto-secundaria);
     cursor: pointer;
 }
 
 .experiencia__item:hover {
-    background-color: var(--dark-200);
+    background-color: var(--cor-bg-secundaria);
 }
 
 .experiencia__item-ativo {
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     border-left: 2px solid var(--blue);
-    background-color: var(--dark-200);
+    background-color: var(--cor-bg-secundaria);
 }
 
 .experiencia__conteudo {
@@ -59,13 +59,13 @@
 
 .experiencia__conteudo__titulo {
     display: inline;
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     font-size: 1.2em;
     font-weight: 500;
 }
 
 .experiencia__data {
-    color: var(--light);
+    color: var(--cor-texto-primaria);
     align-self: flex-end;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .experiencia__conteudo__paragrafo {
-    color: var(--gray-light);
+    color: var(--cor-texto-secundaria);
     font-size: 0.8em;
     letter-spacing: 1px;
     line-height: 25px;
