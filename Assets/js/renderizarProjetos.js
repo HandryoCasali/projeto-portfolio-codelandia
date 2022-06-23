@@ -13,7 +13,7 @@ const listaProjetos = [
     descricao:
       "Exemplo de um projeto de console para cadastro de pessoas físicas e pessoas jurídicas. Projeto construído durante as aulas de back-end no curso do SENAI.",
     tecnologias: "C# .Net cli.",
-    link: "https://github.com/HandryoCasali/senai-uc12-sa2",
+    link: "https://github.com/HandryoCasali/senai-entregas-atividades/tree/main/back-end/uc12-codificacao-back-end/codificacao/cadastro-pessoa",
   },
   {
     titulo: "Projeto Portfólio",
