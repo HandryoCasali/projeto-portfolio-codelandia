@@ -5,7 +5,7 @@ const listaProjetos = [
     descricao:
       "Site de exemplo de um e-commerce de produtos de tecnologia. Projeto construído durante as aulas de front-end no curso do SENAI.",
     tecnologias: "Angular.",
-    link: "https://handryocasali.github.io/senai-gamemania-angular/",
+    link: "https://handryocasali.github.io/GameMania/",
   },
   {
     titulo: "Cadastro de Pessoas Físicas e Jurídicas",
