@@ -35,7 +35,7 @@ const listaProjetos = [
     imagem: "./Assets/img/ExoApi.jpg",
     descricao: "Projeto de um crud simples de api com cors e sistema de login.",
     tecnologias: "C#, .NET6 e AspNet",
-    link: "https://github.com/HandryoCasali/Projeto-ExoApi",
+    link: "https://github.com/HandryoCasali/senai-entregas-atividades/tree/main/back-end/uc14-api/Projeto-ExoApi/API/ExoApi",
   },
 ];
 
